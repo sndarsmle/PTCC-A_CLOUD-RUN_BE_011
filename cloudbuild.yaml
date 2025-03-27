@@ -15,9 +15,9 @@ steps:
       [
         "run",
         "deploy",
-        "be",
+        "backend-ageng-011",
         "--image",
-        "gcr.io/$PROJECT_ID/tcc-be",
+        "gcr.io/$PROJECT_ID/backend-ageng-011",
         "--timeout",
         "1000s",
         "--port",
